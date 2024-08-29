@@ -1,35 +1,4 @@
-// const express=require("express");
-// const mongoose=require("mongoose");
-// const authRouter=require("./routes/auth");
 
-// //INIT
-// const PORT = 3000;
-// const app=express();
-// const DB="mongodb+srv://siddarth:vijay207@cluster0.bh0ilaa.mongodb.net/?retryWrites=true&w=majority";
-
-// //client ->middleware-> server->client
-// app.use(express.json());
-// app.use(authRouter);
-
-
-// //connections
-// mongoose
-//     .connect(DB)
-//         .then(()=>{
-//             console.log("connection successfull");
-//             })
-//             .catch((e)=>{
-//                         console.log(e);
-//                         });
-
-// app.listen(PORT, "0.0.0.0",()=>{
-//     console.log(`connected at port ${PORT}`);
-// });
-
-
-
-//new code
-// IMPORTS FROM PACKAGES
 const express = require("express");
 const mongoose = require("mongoose");
 const adminRouter = require("./routes/admin");
