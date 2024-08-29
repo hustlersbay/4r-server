@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 3000;
 
 const app = express();
 const DB ="mongodb+srv://siddarthgadge4209:vijay207@cluster0.sdbjg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
-// const DB ="mongodb+srv://tusharbhabal73:tushar97@cluster0.fhhp7ph.mongodb.net/?retryWrites=true&w=majority";
+
 
 // middleware
 app.use(express.json());
